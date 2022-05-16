@@ -9,9 +9,9 @@
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-align-items: center;
+align-items: center; 
 background-color: rgb(5, 5, 175);
-padding: 20px;
+padding: .8rem;
 }
 
 .logo {
@@ -27,27 +27,52 @@ padding: 20px;
     flex-direction:row ;
     gap: 10px;
     margin: 5px;
-}
+} 
+
+/* form.login{
+    display:grid;
+ grid-template-areas: "f1 f1 f1",
+                        "f2 f2 f2"; 
+                        background-color: red;
+} */
+
+
 div.form1{
     display: flex;
     flex-direction: column;
     border: none;
+    background-color: green;
+    grid-area: f1;
 }
 div.form2{
     display: flex;
     flex-direction: column;
     border: none;
+    background-color: purple;
+    grid-area: f2;
 }
-.btn {  /* olhar depois !! */
-padding: 0px 1px 0px 1px;
-color: white;
-background-color: rgb(5, 5, 175);
-border: 1px solid black;
-}
+.btn { 
+    padding: 0px 1px;
+    color: white;
+    background-color: rgb(5, 5, 175);
+    border: 1px solid black;
+    width: 4.4rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    align-self: flex-end;
+    grid-area: e;
+    }
+
+p.pEsqueceu {
+    background-color: yellow;
+    
+    grid-area: p;
+}    
 p.email  {
     color: white;
     text-align: center;
     padding-bottom: 3px;
+
 }
 p.senha  {
     color: white;
@@ -58,14 +83,15 @@ p.senha  {
 /* conteudo principal esquerda */
 
 .container {
- display: flex;
- flex-direction: row;
- justify-content: space-evenly;
- padding: 0px 20px;
- gap:  60px;
- background-color: rgba(3, 160, 252, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+    gap:  60px;
 }
-
+.container, .rodape{
+    background-color: #E9EAEF;
+}
 .conteudo-lateral-esquerdo{
     display: flex;
     flex-direction: column;
@@ -75,7 +101,7 @@ p.senha  {
 
 .mensagem {
     color: rgb(4, 4, 196);
-    padding-top: 25px;
+    padding-top: 1.6rem;
 }
 
 img{
@@ -86,19 +112,17 @@ img{
 
 
 .conteudo-lateral-direito{
- display: flex;
- flex-direction: column;
-
- align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .abra-conta{
-    font-size: 40px;
- 
+    font-size: 2.5rem;
 }
 .msg-conta{
-    font-size: 16px;
-    padding-bottom: 10px;
+    font-size: 1rem;
+    padding-bottom: .9rem;
     
 }
 
@@ -117,7 +141,7 @@ img{
 }
 
 .inicio-formulario input {
-    padding: 10px;
+    padding: .8rem;
     border-radius: 2px;
     border: none;
 }
@@ -128,34 +152,47 @@ img{
     gap: 10px;
 }
 .data-dados a {
-    font-size: 12px;
-    padding: 5px;
+    font-size: .6rem;
+    padding: .4rem;
+}
+.dataMsg{
+    display: flex;
+}
+.dataLink{
+    display: inline-flex;
+    width: 15rem;
 }
 .fem-mas{
     display: flex;
-    justify-content: space-evenly;
+    gap: .5rem;
     align-items: center;
 }
-p.p-inscrever  {
-    font-size: 14px;
+p.p-inscrever , p.p-inscrever a  {
+    font-size: .9rem;
     padding: 10px 0px 10px 0px;
 }
 
 .btn-inscrever {
     background-color: green;
     color: white;
-    font-size: 20px;
-    padding:  10px;
+    font-size: 1.2rem;
+    padding:  2rem;
     cursor: pointer;
-    /* OLHAR DEPOIS! */
-}
+    max-width: 170px;
+    border: none;
+    border-radius: 5px;
 
+}
+.btn-inscrever:hover{
+    background-color: rgb(10, 150, 10) ;
+    transition: 2s;
+}
 
 .rodape {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    padding: 20px;
 }
-.rodape p {
-align-self: flex-end;
-padding: 20px;
+.rodape p{
+    font-size: .96rem;
 }
