@@ -1,0 +1,41 @@
+@media screen and (max-width:768px) {
+
+    div.form1,
+    div.form2,
+    p.pEsqueceu {
+        display: none;
+    }
+
+    .conteudo-lateral-esquerdo {
+        display: none;
+    }
+
+    #nome,
+    #sobrenome {
+        width: 100vw;
+    }
+
+    #fem,
+    #mas {
+        padding: none;
+    }
+
+    .dataLink,
+    .rodape p {
+        display: none;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .nome-sobrenome {
+        flex-direction: column;
+    }
+    
+    #celular-ou-email,
+    #senha-cadastro {
+        width: 100vw;
+        padding: .5rem;
+    }
+
+
+}
