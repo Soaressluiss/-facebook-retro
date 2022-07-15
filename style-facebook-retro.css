@@ -59,16 +59,11 @@ p.pEsqueceu {
     color: white;
     
 }    
-p.email  {
+p.email, p.senha {
     color: white;
     text-align: center;
     padding-bottom: 3px;
 
-}
-p.senha  {
-    color: white;
-    text-align: center;
-    padding-bottom: 3px;
 }
 
 /* conteudo principal esquerda */
