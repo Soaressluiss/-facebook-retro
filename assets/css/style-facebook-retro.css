@@ -1,47 +1,49 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-.cabecalho{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center; 
-background-color: rgb(5, 5, 175);
-padding: .8rem;
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(5, 5, 175);
+    padding: .8rem;
 }
 
 .logo {
     font-family: Helvetica;
     color: white;
-    align-self: flex-end;
+    align-self: center;
 }
 
-form.login{
-    display:grid;
+form.login {
+    display: grid;
     grid-gap: .3rem;
     grid-template-areas: " f1 f2  bt"
-                        " ..   ..  Pm"; 
+        " ..   ..  Pm";
     align-items: center;
 }
 
 
-div.form1{
+div.form1 {
     display: flex;
     flex-direction: column;
     border: none;
     grid-area: f1;
 }
-div.form2{
+
+div.form2 {
     display: flex;
     flex-direction: column;
     border: none;
     grid-area: f2;
 }
-.btn { 
+
+.btn {
     padding: 0px 1px;
     color: white;
     background-color: rgb(5, 5, 175);
@@ -52,14 +54,21 @@ div.form2{
     align-self: flex-end;
     grid-area: bt;
     cursor: pointer;
-    }
+}
+
+.btn:hover {
+    background-color: rgb(28, 28, 109);
+    transition: 1s;
+}
 
 p.pEsqueceu {
     grid-area: Pm;
     color: white;
-    
-}    
-p.email, p.senha {
+    margin-left: 1rem;
+}
+
+p.email,
+p.senha {
     color: white;
     text-align: center;
     padding-bottom: 3px;
@@ -73,12 +82,15 @@ p.email, p.senha {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0px 20px;
-    gap:  60px;
+    gap: 60px;
 }
-.container, .rodape{
+
+.container,
+.rodape {
     background-color: #E9EAEF;
 }
-.conteudo-lateral-esquerdo{
+
+.conteudo-lateral-esquerdo {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -86,38 +98,42 @@ p.email, p.senha {
 
 .mensagem {
     color: rgb(4, 4, 196);
-    padding-top: 1.6rem;
+    padding-top: 1.5rem;
 }
 
-img{
-    height: 250px;
+img {
+    height: 271px;
+    margin-top: 4rem;
 
 }
+
 /* conteudo principal direita*/
 
 
-.conteudo-lateral-direito{
+.conteudo-lateral-direito {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.abra-conta{
-    font-size: 2.5rem;
-}
-.msg-conta{
-    font-size: 1rem;
-    padding-bottom: .9rem;
-    
+.abra-conta {
+    font-size: 2.3rem;
 }
 
-.inicio-formulario{
+.msg-conta {
+    font-size: 1rem;
+    padding-bottom: .9rem;
+
+}
+
+.inicio-formulario {
     display: flex;
     flex-direction: column;
     gap: 20px;
     max-width: 600px;
 
 }
+
 .nome-sobrenome {
     display: flex;
     justify-content: center;
@@ -136,48 +152,56 @@ img{
     flex-direction: column;
     gap: 10px;
 }
+
 .data-dados a {
     font-size: .6rem;
     padding: .4rem;
 }
-.dataMsg{
+
+.dataMsg {
     display: flex;
 }
-.dataLink{
+
+.dataLink {
     display: inline-flex;
     width: 15rem;
 }
-.fem-mas{
+
+.fem-mas {
     display: flex;
     gap: .5rem;
     align-items: center;
 }
-p.p-inscrever , p.p-inscrever a  {
+
+p.p-inscrever,
+p.p-inscrever a {
     font-size: .9rem;
-    padding: 10px 0px 10px 0px;
+
 }
 
 .btn-inscrever {
     background-color: green;
     color: white;
     font-size: 1.2rem;
-    padding:  2rem;
+    padding: 2rem;
     cursor: pointer;
     max-width: 170px;
     border: none;
     border-radius: 5px;
 
 }
-.btn-inscrever:hover{
-    background-color: rgb(10, 150, 10) ;
+
+.btn-inscrever:hover {
+    background-color: rgb(10, 150, 10);
     transition: 2s;
 }
 
 .rodape {
     display: flex;
     flex-direction: row-reverse;
-    padding: 20px;
+    padding: .2rem;
 }
-.rodape p{
+
+.rodape p {
     font-size: .96rem;
 }

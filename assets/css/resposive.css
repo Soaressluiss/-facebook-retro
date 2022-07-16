@@ -12,7 +12,7 @@
 
     #nome,
     #sobrenome {
-        width: 100vw;
+        width: 34rem;
     }
 
     #fem,
@@ -29,13 +29,22 @@
 @media screen and (max-width:620px) {
     .nome-sobrenome {
         flex-direction: column;
+        max-width: none;
     }
-    
+
     #celular-ou-email,
     #senha-cadastro {
-        width: 100vw;
         padding: .5rem;
     }
 
+    #nome,
+    #sobrenome {
+        padding: .5rem;
+        width: 19.3rem;
+    }
+
+    .abra-conta {
+        font-size: 2rem;
+    }
 
 }
