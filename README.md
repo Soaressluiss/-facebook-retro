@@ -9,12 +9,7 @@
 **HTML**    | <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="40" width="40" />
 **CSS**     |  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="40" width="40" />
 
-<h2 align="center"> Screenshots: </h2>
 
- <img src="assets/imgs/screenshots/facebook pc.jpg">
- <img src="assets/imgs/screenshots/facebook tablet.jpg">
-
- <img src="assets/imgs/screenshots/facebook celular.jpg">
 
 
 #### Feito com ❤ por **Luís Soares** ©2022
