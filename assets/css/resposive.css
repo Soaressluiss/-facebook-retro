@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:860px) {
 
     div.form1,
     div.form2,
@@ -45,5 +45,9 @@
 
     .abra-conta {
         font-size: 2rem;
+    }
+
+    .btn-inscrever {
+        padding: 1rem;
     }
 }

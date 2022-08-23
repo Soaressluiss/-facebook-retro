@@ -184,10 +184,9 @@ p.p-inscrever a {
 .btn-inscrever {
     background-color: green;
     color: white;
-    font-size: 1.2rem;
-    padding:1.7rem;
+    font-size: 1rem;
     cursor: pointer;
-    max-width: 170px;
+    max-width: 140px;
     border: none;
     border-radius: 5px;
 
