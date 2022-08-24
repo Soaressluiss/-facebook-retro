@@ -9,7 +9,8 @@
     .conteudo-lateral-esquerdo {
         display: none;
     }
-
+ 
+    
     #nome,
     #sobrenome {
         width: 34rem;
@@ -27,20 +28,18 @@
 }
 
 @media screen and (max-width:620px) {
-    .nome-sobrenome {
-        flex-direction: column;
-        max-width: none;
-    }
-
     #celular-ou-email,
     #senha-cadastro {
         padding: .5rem;
     }
-
+    .nome-sobrenome {
+        flex-direction: column;
+        max-width: none;
+    }
     #nome,
     #sobrenome {
         padding: .5rem;
-        width: 19.3rem;
+        width: 20rem;
     }
 
     .abra-conta {
@@ -49,5 +48,14 @@
 
     .btn-inscrever {
         padding: 1rem;
+    }
+  
+}
+@media screen and (max-width: 370px) {
+    #nome, #sobrenome, #celular-ou-email, #senha-cadastro {
+        width: 16rem;
+    }
+    .inicio-formulario {
+        align-items: center;
     }
 }

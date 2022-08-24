@@ -11,12 +11,16 @@
     <link rel="stylesheet" href="assets/css/style-facebook-retro.css">
     <link rel="stylesheet" href="assets/css/resposive.css">
     <link rel="shortcut icon" href="./assets/imgs/facebook-icone.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
         <header class="cabecalho">
-            <h1 class="logo">facebook</h1>
+            <h1 class="logo">facebook <span>retrô</span></h1>
             <form action="POST" class="login">
                 <div class="form1">
                     <p class="email">Email ou telefone</p>
@@ -54,9 +58,12 @@
                         <input type="text" name="nome" id="nome" placeholder="Nome" required>
                         <input type="text" name="Sobrenome" id="sobrenome" placeholder="Sobrenome " required>
                     </div>
-                    <input type="text" name="Celular ou email" id="celular-ou-email" placeholder="Celular ou Email"
-                        required>
-                    <input type="password" name="senha" id="senha-cadastro" placeholder="Nova Senha" required>
+
+                    <div class="email-senha-container">
+                        <input type="text" name="Celular ou email" id="celular-ou-email" placeholder="Celular ou Email"
+                            required>
+                        <input type="password" name="senha" id="senha-cadastro" placeholder="Nova Senha" required>
+                    </div>
                     <div class="data-dados">
                         <p class="data"> Data de nascimento</p>
                         <div class="dataMsg">
@@ -67,26 +74,32 @@
                         </div>
                         <div class="fem-mas">
                             <input id="fem" type="radio" name="sex" value="Feminino">
-                            <label for="fem">feminino</label>
+                            <label for="fem">Feminino</label>
                             <input id="mas" type="radio" name="sex" value="Masculino">
-                            <label for="mas">masculino</label>
+                            <label for="mas">Masculino</label>
                         </div>
-                        <p class="p-inscrever">Ao clicar em Inscreve-se, voçê concorda com nossos<a href="http://"
+                        <p class="p-inscrever">Ao clicar em Inscreve-se, você concorda com nossos<a href="http://"
                                 target="_blank">Termos,
                                 Política de Dados</a> e <a href="http://" target="_blank">Política de Cookies.</a>Você
                             pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
 
-                        <input class="btn-inscrever" type="button" value="Inscreva-se"></input>
+                        <input onclick="logar()" class="btn-inscrever" type="button" value="Inscreva-se"></input>
                     </div>
                 </div>
             </section>
         </main>
-        <!-- Footer -->
         <footer class="rodape">
             <p><a href="#" target="_blank"> Criar uma Página</a> para uma celebridade, banda ou empresa.
             </p>
         </footer>
     </div>
+
+    <script>
+        function logar() {
+            alert('você se cadastrou! :)')
+            window.location.href = "./index.html"
+        }
+    </script>
 </body>
 
 </html>

@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 html,body{
     height: 100%;
@@ -25,6 +26,13 @@ html,body{
     font-family: Helvetica;
     color: white;
     align-self: center;
+    text-shadow: 2px 2px 2px black;
+}
+span{
+    font-family: 'Bangers', cursive;
+    color: #ff2800;
+    letter-spacing: .3rem;
+    text-shadow: 2px 2px 2px black;
 }
 
 form.login {
@@ -61,11 +69,13 @@ div.form2 {
     align-self: flex-end;
     grid-area: bt;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .btn:hover {
     background-color: rgb(28, 28, 109);
     transition: 1s;
+    transform: scale(1.1);
 }
 
 p.pEsqueceu {
@@ -108,6 +118,7 @@ p.senha {
 .mensagem {
     color: rgb(4, 4, 196);
     padding-top: 1.5rem;
+    font-family: Helvetica;
 }
 
 img {
@@ -126,12 +137,14 @@ img {
 }
 
 .abra-conta {
-    font-size: 2.0rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .msg-conta {
     font-size: 1rem;
     padding-bottom: .9rem;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -145,8 +158,18 @@ img {
 
 .nome-sobrenome {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
+
+}
+#nome, #sobrenome{
+    width: cal(60vw - 20px);
+    font-family: 'Roboto', sans-serif;
+}
+.email-senha-container{
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -163,12 +186,16 @@ img {
 }
 
 .data-dados a {
-    font-size: .6rem;
+    font-size: .8rem;
     padding: .4rem;
+    font-family: 'Roboto', sans-serif;
 }
-
+.data{
+    font-family: 'Roboto', sans-serif;
+}
 .dataMsg {
     display: flex;
+    
 }
 
 .dataLink {
@@ -180,13 +207,14 @@ img {
     display: flex;
     gap: .5rem;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 p.p-inscrever,
 p.p-inscrever a {
     margin-top: 1rem;
     font-size: .9rem;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-inscrever {
@@ -197,6 +225,7 @@ p.p-inscrever a {
     max-width: 140px;
     border: none;
     border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -214,4 +243,5 @@ p.p-inscrever a {
 .rodape p {
     font-size: .96rem;
     margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
