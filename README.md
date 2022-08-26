@@ -1,11 +1,16 @@
-![facebook-retro-imagem](../facebook-retro/assets/imgs/facebook-retro%20logo.jpg)
+<div>
 
+![header](/assets/imgs/header%20github%20readme/header%20facebook.jpg)
+
+</div>
 <div>
 
 ![Language](https://img.shields.io/github/languages/count/Soaressluiss/facebook-retro?style=for-the-badge&color=orange)
-![files](https://img.shields.io/github/directory-file-count/soaressluiss/facebook-retro?style=for-the-badge&color=blue)
 ![forks](https://img.shields.io/github/forks/soaressluiss/facebook-retro?style=for-the-badge&color=green)
 ![star user](https://img.shields.io/github/stars/soaressluiss/facebook-retro?style=for-the-badge&color=yellow)
+![files](https://img.shields.io/github/directory-file-count/soaressluiss/facebook-retro?style=for-the-badge&color=blue)
+![status](https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
+![licenca](https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge)
 
 </div>
 
@@ -13,6 +18,9 @@
 ## 🔢 Tópicos:
 
 - Descrição
+
+ [Contato](#Contato)
+ [Contato](#Contato:)
 - Tecnologias utilizadas
 - Acesse ao projeto
 - Inicie local o Projeto
@@ -33,7 +41,7 @@ O projeto é um clone da página de login do facebook dá época que a rede soci
 
 ## 🌐 Acesse o projeto online:
 
-> [Facebook Retrô ⏳](https://soaressluiss.github.io/facebook-retro/)
+><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank" > Facebook Retrô ⏳</a>
 
 ## 💻 Inicie localmente:
 
@@ -49,7 +57,8 @@ Vá para o diretório da pasta
 cd facebook-retro
 ```
 
-Inicío o arquivo **index.html** em algum navegador de sua preferência, recomendo a extensão do Vscode [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) através do comando:
+Inicío o arquivo **index.html** em algum navegador de sua preferência, recomendo a extensão do Vscode <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank" > Live Server</a> através do comando:
+
 
 ```
 alt+L alt+O ou clique em "GO Live" no canto inferior direito do Vscode para iniciar o Server
