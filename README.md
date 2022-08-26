@@ -40,7 +40,7 @@ Foi desenvolvido com o intuito de aprimorar os conhecimentos em responsividade, 
 
 ## 🌐 Acesse o projeto online:
 
-><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank"> Facebook Retrô ⏳</a>
+><a href="https://soaressluiss.github.io/facebook-retro/" target="_blank"> Facebook Retrô ⏳</a>
 
 ## 💻 Inicie localmente:
 
