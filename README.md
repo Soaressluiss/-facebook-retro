@@ -5,12 +5,12 @@
 </div>
 <div>
 
-![Language](https://img.shields.io/github/languages/count/Soaressluiss/facebook-retro?style=for-the-badge&color=orange)
-![forks](https://img.shields.io/github/forks/soaressluiss/facebook-retro?style=for-the-badge&color=green)
-![star user](https://img.shields.io/github/stars/soaressluiss/facebook-retro?style=for-the-badge&color=yellow)
-![files](https://img.shields.io/github/directory-file-count/soaressluiss/facebook-retro?style=for-the-badge&color=blue)
-![status](https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
-![licenca](https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge)
+![Language](https://img.shields.io/github/languages/count/Soaressluiss/facebook-retro?flat-square&logo=appveyor&color=orange)
+![forks](https://img.shields.io/github/forks/soaressluiss/facebook-retro?flat-square&logo=appveyor&color=green)
+![star user](https://img.shields.io/github/stars/soaressluiss/facebook-retro?flat-square&logo=appveyor&color=yellow)
+![files](https://img.shields.io/github/directory-file-count/soaressluiss/facebook-retro?flat-square&logo=appveyor&color=blue)
+![status](https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&flat-square&logo=appveyor)
+![licenca](https://img.shields.io/static/v1?label=License&message=MIT&color=green&flat-square&logo=appveyor)
 
 </div>
 
@@ -18,18 +18,17 @@
 ## 🔢 Tópicos:
 
 - Descrição
-
- [Contato](#Contato)
- [Contato](#Contato:)
 - Tecnologias utilizadas
 - Acesse ao projeto
 - Inicie local o Projeto
 - Gif demostrativo
-- Contato
+
 
 ## 📃 Descrição:
 
-O projeto é um clone da página de login do facebook dá época que a rede social ainda possuía uma interface diferente da utilizada atualmente, com um design mais antigo.
+O projeto é um clone da página de login do facebook do período em que a rede social ainda possuía uma interface diferente da utilizada atualmente, com um design mais simples. 
+
+Foi desenvolvido com o intuito de aprimorar os conhecimentos em responsividade, através das tecnologias [Flexbox](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox) e [Grid Layout](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout).
 
 ## 👨‍💻 Tecnologias utilizadas:
 
@@ -41,7 +40,7 @@ O projeto é um clone da página de login do facebook dá época que a rede soci
 
 ## 🌐 Acesse o projeto online:
 
-><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank" > Facebook Retrô ⏳</a>
+><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank"> Facebook Retrô ⏳</a>
 
 ## 💻 Inicie localmente:
 
@@ -66,9 +65,8 @@ alt+L alt+O ou clique em "GO Live" no canto inferior direito do Vscode para inic
 
 ## 📽 Gif demostrativo:
 ![animation](/assets/imgs/anima%C3%A7%C3%A3o%20facebook%20retro.gif)
-## 📧 Contato:
 
-#### Feito com ❤ por **Luís Soares** ©2022
+#### Feito com ❤ por [Luís Soares](https://github.com/Soaressluiss) ©2022
 
 #### Gostou do projeto? Me mande uma mensagem!😄
 
