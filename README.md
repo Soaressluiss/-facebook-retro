@@ -1,4 +1,4 @@
-![facebook-retro-imagem](../facebook-retro/assets/imgs/facebook-retr%C3%B4%20logo.jpg)
+![facebook-retro-imagem](../facebook-retro/assets/imgs/facebook-retro%20logo.jpg)
 
 <div>
 
