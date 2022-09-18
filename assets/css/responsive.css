@@ -9,7 +9,6 @@
     .conteudo-lateral-esquerdo {
         display: none;
     }
- 
     
     #nome,
     #sobrenome {
@@ -34,25 +33,22 @@
 }
 
 @media screen and (max-width:620px) { 
- 
     .nome-sobrenome {
         flex-direction: column;
         max-width: none;
+
     }
     #nome,
     #sobrenome {
-        width: 20rem;
+        width: 21.58rem;
     }
 
     .abra-conta {
         font-size: 2rem;
     }
 
-    .btn-inscrever {
-        padding: 1rem;
-    }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 390px) {
     #celular-ou-email, #senha-cadastro {
         width: calc(100vw - 30px);
     }
@@ -61,5 +57,8 @@
     }
     .inicio-formulario {
         align-items: center;
+    }
+    .btn-inscrever {
+        margin-top: 1rem;
     }
 }

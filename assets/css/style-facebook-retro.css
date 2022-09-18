@@ -75,7 +75,7 @@ div.form2 {
 .btn:hover {
     background-color: rgb(28, 28, 109);
     transition: 1s;
-    transform: scale(1.1);
+    border-color: white;
 }
 
 p.pEsqueceu {
@@ -101,7 +101,6 @@ p.senha {
     justify-content: space-evenly;
     padding: 0px 20px;
     gap: 60px;
-    /* height: 100vh; */
 }
 
 .container,
